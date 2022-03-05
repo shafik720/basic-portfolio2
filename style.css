@@ -1,0 +1,95 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    margin: 0px;
+}
+p{
+    font-size: 1.3em;
+}
+h1{
+    font-size: 60px;
+}
+
+.peters{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.peter{
+    width: 45%;
+    margin-left: 6%;
+}
+.peter p{
+    margin-bottom: 40px;
+}
+.peter img{
+    width: 90%;
+}
+.oranged-text{
+    color: orange;
+}
+.orange-button{
+    background-image: linear-gradient(120deg, tomato, red);
+    text-decoration: none;
+    padding: 15px 35px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+.dreams{
+    display: flex;
+    margin-top: 5%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream{
+    width: 48%;
+    margin-left: 4%;
+}
+.dream img{
+    width: 80%;
+}
+.dream p{
+    margin-bottom: 10%;
+}
+.blue-button{
+    background-image: linear-gradient(120deg, blue, skyblue);
+    text-decoration: none;
+    color: white;
+    padding: 15px 35px;
+    font-weight: 600;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+.exps{
+    display: flex;
+    margin: 0px auto;
+}
+.exp h1{
+    font-size: 40px;
+}
+.exp{
+    width: 40%;
+    margin-left: 3%;
+    box-shadow: 15px 15px 15px 15px #ddd;
+    padding: 25px;
+}
+#exp1{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+}
+#exp2{
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10%;
+    padding: 5%;
+}
